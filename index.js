@@ -33,7 +33,7 @@ client.on(Events.ClientReady, async () => {
   } catch (error) {
     console.error(error);
   }
-  console.log(`${client.user.username} Aktif Edildi!`);
+  console.log(`${client.user.username} Bot Aktif Edildi!`);
 });
 
 readdirSync("./src/events").forEach(async (file) => {
